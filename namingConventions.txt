@@ -1,0 +1,6 @@
+Name all files, folders, and HTML IDs using lowercase letters only.
+    All multi-word names (including files, folders, and IDs) should be written in camelCase
+Only use standard, correctly spelled English words or abbreaviations of english words
+Don't use any spaces or special characters
+Keep names as short as possible without loosing clarity or understanding
+Be sure to have brief yet informative comments for all code segments
