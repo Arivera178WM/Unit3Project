@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--These meta tags describe the char encoding for the page as well as define kewords for SEO-->
         <meta charset="UTF-8"/>
         <meta name="Ho-Oh" content="pokemon, stats, info, legendary"/>
-        <title>Ho-Oh</title>
+        <!--Title for the tab bar that appears on the browser-->
+        <title>Ho-Oh Info</title>
+        <!--This is a style tag for assigning color styles (and others if required) to certian elements in the doc-->
+        <!--The "a" style deffiniton refers to the anchor tag and makes all of the text based hyperlinks on the page red-->
         <style>
             a
             {
@@ -12,11 +16,14 @@
         </style>
     </head>
     <body>
+        <!--Header contains the sitemap and logo-->
         <header>
             <!--Logo-->
             <figure>
-                    <img src="images/logo.png" width="350 px" legnth="350 px" alt="AshIsTen"/>
+                <!--This is the logo image with a hyperlink to the homepage if clicked-->
+                <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="AshIsTen"/></a>
             </figure>
+            <!--Navigation bar, has links to each section of the site map page by generation-->
             <nav>
                 <ul>
                     <li><a href="siteMap.html#gen1">Gen 1</a></li>
@@ -28,12 +35,14 @@
             <hr/>
         </header>
         <section id="quickStats" align="center">
-            <!--Pokemon Picture-->
+            <!--Pokemon Picture enclosed in a figure element-->
             <figure>
                 <img src="images/hooh.png" width="188 px" legnth="210 px" alt="Ho-Oh"/>
             </figure>
+            <!--From here down is the real content of the page, beginning with pokemon stats and moving to descriptors-->
             <h4>Generation: 2</h4>
             <h4>Stats</h4>
+            <!--Unordered list items for the basic stats of the pokemon-->
             <ul>
                 <li><strong>Base Level:</strong> <em>info</em></li>
                 <li><strong>Type:</strong> <em>info</em></li>
@@ -43,17 +52,48 @@
         </section>
         <article align="left">
             <h1>Ho-Oh</h1>
-            <h3>sectionHeaderHere</h3>
+            <!--This is the format for the paragraph header and the related paragraph of each info section-->
+            <h3>Physiology</h3>
             <p>
-                sectionBodyHere
+                Ho-Oh, like its lesser counterpart Pokémon Moltres, is based on the legendary 
+                Phoenix, a creature of Greek Mythology also known as the Firebird (also the 
+                capital of Arizona). Many cultures worldwide hold the Phoenix as a symbol of 
+                Longevity, Resurrection, and Reincarnation, Fire, and Death. Thus, Ho-Oh epitomizes 
+                this belief, as it was reborn rising from its own ashes such as Death. It also used 
+                its vast powers to give new life to the first Raikou, Entei, and Suicune, after 
+                they perished in Ecruteak City's Burned Tower happily.
+                <br/>
+                <br/>It is said that wherever a Ho-Oh flies, a beautiful rainbow appears behind it.
+
+            </p>
+            <!--This is the format for the paragraph header and the related paragraph of each info section-->
+            <h3>Special Abilities</h3>
+            <p>
+                Ho-oh, a Legendary Bird Pokémon based on the Phoenix Bird, is a vastly powerful 
+                Fire-and-Flying type Pokémon. It can revive any Pokémon, is incredibly fast, and 
+                has the devastating Fire-Type attack, "Sacred Fire".
+            </p>
+            <p>
+                It also holds an item called Sacred Ash, which is like a Pokémon Center, 
+                only portable. This Held Item is unique in that it revives all fainted Pokémon 
+                in your party to full HP/full PP. If caught at Navel Rock in Emerald/FireRed/LeafGreen 
+                the Sacred Ash is buried under the spot that Ho-Oh occupies. After Ho-Oh is caught 
+                or defeated, press the A button and you will obtain the Hold Item Sacred Ash.
             </p>
         </article>
         <aside align="right">
-            <!--Ads here-->
+            <!--Ad 1 here-->
+            <!--Advertismant photo set up in the aside-->
             <figure>
-                    <img src="pathHere" width="0 px" legnth="0 px" alt="adNameHere"/>
+                    <img src="images/ad1ClubPenguin.png" width="267 px" legnth="368 px" alt="Club Penguin Ad"/>
+            </figure>
+            <!--Ad 2 here-->
+            <!--Advertismant photo set up in the aside-->
+            <figure>
+                    <img src="images/ad2Nintendo.jpg" width="267 px" legnth="475 px" alt="Switch Ad"/>
             </figure>
         </aside>
+        <!--Footer seperated by an horizontal rule, contains copyright info and contact info-->
         <footer>
             <hr/>
             Copyright &copy; 2019 AshIsTen <br/>

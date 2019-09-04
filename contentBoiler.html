@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--These meta tags describe the char encoding for the page as well as define kewords for SEO-->
         <meta charset="UTF-8"/>
-        <meta name="topicHere" content="pokemon, stats, info, legendary"/>
-        <title>pageTabTitle</title>
+        <meta name="pokemonNameHere" content="pokemon, stats, info, legendary"/>
+        <!--Title for the tab bar that appears on the browser-->
+        <title>pokemonNameHere Info</title>
+        <!--This is a style tag for assigning color styles (and others if required) to certian elements in the doc-->
+        <!--The "a" style deffiniton refers to the anchor tag and makes all of the text based hyperlinks on the page red-->
         <style>
             a
             {
@@ -12,11 +16,14 @@
         </style>
     </head>
     <body>
+        <!--Header contains the sitemap and logo-->
         <header>
             <!--Logo-->
             <figure>
-                    <img src="images/logo.png" width="350 px" legnth="350 px" alt="AshIsTen"/>
+                <!--This is the logo image with a hyperlink to the homepage if clicked-->
+                <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="AshIsTen"/></a>
             </figure>
+            <!--Navigation bar, has links to each section of the site map page by generation-->
             <nav>
                 <ul>
                     <li><a href="siteMap.html#gen1">Gen 1</a></li>
@@ -28,12 +35,14 @@
             <hr/>
         </header>
         <section id="quickStats" align="center">
-            <!--Pokemon Picture-->
+            <!--Pokemon Picture enclosed in a figure element-->
             <figure>
                 <img src="pathHere" width="0 px" legnth="0 px" alt="pokemonNameHere"/>
             </figure>
+            <!--From here down is the real content of the page, beginning with pokemon stats and moving to descriptors-->
             <h4>Generation: genHere</h4>
             <h4>Stats</h4>
+            <!--Unordered list items for the basic stats of the pokemon-->
             <ul>
                 <li><strong>Base Level:</strong> <em>info</em></li>
                 <li><strong>Type:</strong> <em>info</em></li>
@@ -43,17 +52,25 @@
         </section>
         <article align="left">
             <h1>pokemonNameHere</h1>
+            <!--This is the format for the paragraph header and the related paragraph of each info section-->
             <h3>sectionHeaderHere</h3>
             <p>
                 sectionBodyHere
             </p>
         </article>
         <aside align="right">
-            <!--Ads here-->
+            <!--Ad 1 here-->
+            <!--Advertismant photo set up in the aside-->
             <figure>
-                    <img src="pathHere" width="0 px" legnth="0 px" alt="adNameHere"/>
+                    <img src="images/ad1ClubPenguin.png" width="267 px" legnth="368 px" alt="Club Penguin Ad"/>
+            </figure>
+            <!--Ad 2 here-->
+            <!--Advertismant photo set up in the aside-->
+            <figure>
+                    <img src="images/ad2Nintendo.jpg" width="267 px" legnth="475 px" alt="Switch Ad"/>
             </figure>
         </aside>
+        <!--Footer seperated by an horizontal rule, contains copyright info and contact info-->
         <footer>
             <hr/>
             Copyright &copy; 2019 AshIsTen <br/>

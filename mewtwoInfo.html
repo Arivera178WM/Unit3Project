@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--These meta tags describe the char encoding for the page as well as define kewords for SEO-->
         <meta charset="UTF-8"/>
         <meta name="Mewtwo" content="pokemon, stats, info, legendary"/>
+        <!--Title for the tab bar that appears on the browser-->
         <title>Mewtwo Info</title>
+        <!--This is a style tag for assigning color styles (and others if required) to certian elements in the doc-->
+        <!--The "a" style deffiniton refers to the anchor tag and makes all of the text based hyperlinks on the page red-->
         <style>
             a
             {
@@ -12,11 +16,14 @@
         </style>
     </head>
     <body>
+        <!--Header contains the sitemap and logo-->
         <header>
             <!--Logo-->
             <figure>
-                    <img src="images/logo.png" width="350 px" legnth="350 px" alt="AshIsTen"/>
+                <!--This is the logo image with a hyperlink to the homepage if clicked-->
+                <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="AshIsTen"/></a>
             </figure>
+            <!--Navigation bar, has links to each section of the site map page by generation-->
             <nav>
                 <ul>
                     <li><a href="siteMap.html#gen1">Gen 1</a></li>
@@ -28,12 +35,14 @@
             <hr/>
         </header>
         <section id="quickStats" align="center">
-            <!--Pokemon Picture-->
+            <!--Pokemon Picture enclosed in a figure element-->
             <figure>
                 <img src="images/mewtwo.png" width="196 px" legnth="227 px" alt="Mewtwo"/>
             </figure>
+            <!--From here down is the real content of the page, beginning with pokemon stats and moving to descriptors-->
             <h4>Generation: 1</h4>
             <h4>Stats</h4>
+            <!--Unordered list items for the basic stats of the pokemon-->
             <ul>
                 <li><strong>Base Level:</strong> <em>70</em></li>
                 <li><strong>Type:</strong> <em>Psychic</em></li>
@@ -43,6 +52,7 @@
         </section>
         <article align="left">
             <h1>Mewtwo</h1>
+            <!--This is the format for the paragraph header and the related paragraph of each info section-->
             <h3>Physiology</h3>
             <p>
                     Mewtwo is a bipedal feline-like Pokémon. Its appearance 
@@ -51,6 +61,7 @@
                     and it has three fingers on each hand. Mewtwo projects 
                     a faint purple aura when at full power.
             </p>
+            <!--This is the format for the paragraph header and the related paragraph of each info section-->
             <h3>Forms</h3>
             <p>
                     Mewtwo has an Anime/Manga exclusive form named Armored Mewtwo 
@@ -64,6 +75,7 @@
                     down with his bacon. After going into a tantrum, screaming out 
                     "This isn't even my final form!", Mewthree split back into Clefairy and Mewtwo.
             </p>
+            <!--This is the format for the paragraph header and the related paragraph of each info section-->
             <h3>Characteristics</h3>
             <p>
                     Mewtwo is highly adept at utilizing its Psychic powers, displaying 
@@ -72,6 +84,7 @@
                     uses its telekinesis to fly, block special abilities, and expunge 
                     people's recollections as optically discerned in Mewtwo Strikes Back.
             </p>
+            <!--This is the format for the paragraph header and the related paragraph of each info section-->
             <h3>Behavior</h3>
             <p>
                     As evidence of its immense power, Mewtwo is by far one of the most 
@@ -83,12 +96,14 @@
                     of learning and evolving just to get the upper hand in battle. Indeed, Mewtwo's 
                     title of "The World's Most Powerful Pokémon" shouldn't be undermined.
             </p>
+            <!--This is the format for the paragraph header and the related paragraph of each info section-->
             <h3>Personality</h3>
             <p>
                     Mewtwo is extremely arrogant, cold and aggressive. He is also anti social 
                     and does not speak or smile much, however he has been seen smirking when being 
                     sure of himself or if he thinks lowly of someone.
             </p>
+            <!--This is the format for the paragraph header and the related paragraph of each info section-->
             <h3>Evolution</h3>
             <p>
                     Mewtwo cannot evolve. However, it can Mega Evolve with the 
@@ -96,11 +111,18 @@
             </p>
         </article>
         <aside align="right">
-            <!--Ads here-->
+            <!--Ad 1 here-->
+            <!--Advertismant photo set up in the aside-->
             <figure>
-                    <img src="pathHere" width="0 px" legnth="0 px" alt="adNameHere"/>
+                    <img src="images/ad1ClubPenguin.png" width="267 px" legnth="368 px" alt="Club Penguin Ad"/>
+            </figure>
+            <!--Ad 2 here-->
+            <!--Advertismant photo set up in the aside-->
+            <figure>
+                    <img src="images/ad2Nintendo.jpg" width="267 px" legnth="475 px" alt="Switch Ad"/>
             </figure>
         </aside>
+        <!--Footer seperated by an horizontal rule, contains copyright info and contact info-->
         <footer>
             <hr/>
             Copyright &copy; 2019 AshIsTen <br/>
