@@ -12,7 +12,7 @@ Jerry:
         -Grid based
         -make sure all components go in grid
 
-Aspin:
+Aspen:
     PokeGrids_map.css
         -Layouts for site map page
         -Grid based
@@ -21,9 +21,16 @@ Zac:
     PokeReset.css
         -Find a Reset file somewhere
 
+Abe:
+    PokeStyles.css
+        -Design colors based on what you think looks best
+        -Ensure all styles apply to the correct tags for what the HTML file will best
+        -This one is only for all styles unless it's not possible, then do one for each layout type
+
 HTML ToDo:
 
 Zac:
     All Files.html
         -Remove all CSS from HTML pages
         -Redesign pages to match a grid style
+        -Link the appropiate CSS pages to each HTML Page
