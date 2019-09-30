@@ -4,31 +4,48 @@
         <!--These meta tags describe the char encoding for the page as well as define kewords for SEO-->
         <meta charset="UTF-8">
         <!--Title for the tab bar that appears on the browser-->
-        <meta name="PokemonWIki" content="Generation1, Generation2, Generation3, Generation4, Legendaries">
+        <meta name="PokemonWiki" content="Generation1, Generation2, Generation3, Generation4, Legendaries">
         <title>Pokemon Wiki</title>
+        <link href="PokeReset.css" rel="styleSheet" />
+        <link href="PokeStyles.css" rel="styleSheet" />
+        <link href="PokeGrids_home.css" rel="styleSheet" />
     </head>
     <body>
-        <!--Links to the site map in the nav bar-->
-        <nav>
-            <ul>
-                <li><a href="siteMap.html#gen1">Generation 1</a></li>
-                <li><a href="siteMap.html#gen2">Generation 2</a></li>
-                <li><a href="siteMap.html#gen3">Generation 3</a></li>
-                <li><a href="siteMap.html#gen4">Generation 4</a></li>
-            </ul>
-        </nav>
-        <!--Logo-->
-        <section id="logo">
-            <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="AshIsTen"/></a>
-        </section>
-        <section id="searchBar">
-            <h3>The Search Bar</h3>
-        </section>
-        <footer>
-            <hr/>
-            Copyright &copy; 2019 AshIsTen <br/>
-            Contact Us &amp; <a href="mailto:support@ashisten.com">support@ashisten.com</a> 
-            or <a href="tel:+1234567890">123-456-7890</a>
-        </footer>
+        <div class="row">
+            <div class="col-1-1" id="nav">
+                <!--Links to the site map in the nav bar-->
+                <nav>
+                    <ul>
+                        <li><a href="siteMap.html#gen1">Generation 1</a></li>
+                        <li><a href="siteMap.html#gen2">Generation 2</a></li>
+                        <li><a href="siteMap.html#gen3">Generation 3</a></li>
+                        <li><a href="siteMap.html#gen4">Generation 4</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-1" id="logo">
+                <!--Logo-->
+                <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="AshIsTen"/></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-1" id="searchBar">
+                <!--Search Bar Here-->
+                <h3>The Search Bar</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-1" id="footer">
+                <!--Footer-->
+                <footer>
+                    <hr/>
+                    Copyright &copy; 2019 PokemonWiki <br/>
+                    Contact Us &amp; <a href="mailto:support@pokemonwiki.com">support@pokemonwiki.com</a> 
+                    or <a href="tel:+1234567890">123-456-7890</a>
+                </footer>
+            </div>
+        </div>
     </body>
 </html>
