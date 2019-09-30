@@ -1,0 +1,29 @@
+CSS Grids ToDo:
+
+Zac:
+    PokeGrids_Info.css
+        -Layouts for Info pages
+        -Grid based
+        -make sure all components go in grid
+
+Jerry:
+    PokeGrids_home.css
+        -Layouts for index (home) page
+        -Grid based
+        -make sure all components go in grid
+
+Aspin:
+    PokeGrids_map.css
+        -Layouts for site map page
+        -Grid based
+        -make sure all components go in grid
+Zac:
+    PokeReset.css
+        -Find a Reset file somewhere
+
+HTML ToDo:
+
+Zac:
+    All Files.html
+        -Remove all CSS from HTML pages
+        -Redesign pages to match a grid style
