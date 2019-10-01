@@ -33,5 +33,5 @@ HTML ToDo:
 Zac:
     All Files.html
         -Remove all CSS from HTML pages - Done
-        -Redesign pages to match a grid style - Info only left
+        -Redesign pages to match a grid style - All info except ArceusInfo is left
         -Link the appropiate CSS pages to each HTML Page - Done

@@ -11,111 +11,124 @@
         <link href="PokeGrids_Info.css" rel="styleSheet" />
     </head>
     <body>
-        <!--Header contains the sitemap and logo-->
-        <header>
-            <!--Logo-->
-            <figure>
-                <!--This is the logo image with a hyperlink to the homepage if clicked-->
-                <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="AshIsTen"/></a>
-            </figure>
-            <!--Navigation bar, has links to each section of the site map page by generation-->
-            <nav>
-                <ul>
-                    <li><a href="siteMap.html#gen1">Gen 1</a></li>
-                    <li><a href="siteMap.html#gen2">Gen 2</a></li>
-                    <li><a href="siteMap.html#gen3">Gen 3</a></li>
-                    <li><a href="siteMap.html#gen4">Gen 4</a></li>
-                </ul>
-            </nav>
-            <hr/>
-        </header>
-        <section id="quickStats" align="center">
-            <!--Pokemon Picture enclosed in a figure element-->
-            <figure>
-                <img src="images/arceus.png" width="260 px" legnth="324 px" alt="Arceus"/>
-            </figure>
-            <!--From here down is the real content of the page, beginning with pokemon stats and moving to descriptors-->
-            <h4>Generation: 4</h4>
-            <h4>Stats</h4>
-            <!--Unordered list items for the basic stats of the pokemon-->
+        <div class="row" id="header">
+            <div class="col-1-1">
+                <!--Logo-->
+                <figure>
+                    <!--This is the logo image with a hyperlink to the homepage if clicked-->
+                    <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="Pokemon Wiki"/></a>
+                </figure>
+            </div>
+        </div>
+        <!--Navigation bar, has links to each section of the site map page by generation-->
+        <div class="row" id="navTop">
             <ul>
-                <li><strong>Base Level:</strong> <em>80</em></li>
-                <li><strong>Type:</strong> <em>Normal, unless holding a plate</em></li>
-                <li><strong>Height:</strong> <em>10’06”</em></li>
-                <li><strong>Weight:</strong> <em>705.5 lbs</em></li>
+                <div class="col-1-4" id="gen1">
+                    <li><a href="siteMap.html#gen1">Gen 1</a></li>
+                </div>
+                <div class="col-1-4" id="gen2">
+                    <li><a href="siteMap.html#gen2">Gen 2</a></li>
+                </div>
+                <div class="col-1-4" id="gen3">
+                    <li><a href="siteMap.html#gen3">Gen 3</a></li>
+                </div>
+                <div class="col-1-4" id="gen4">
+                    <li><a href="siteMap.html#gen4">Gen 4</a></li>
+                </div>
             </ul>
-        </section>
-        <article align="left">
-            <h1>Arceus</h1>
-            <!--This is the format for the paragraph header and the related paragraph of each info section-->
-            <h3>Physiology</h3>
-            <p>
-                Arceus is an equine being similar to a Qilin. Its body color is white 
-                with a gray, vertically-striated underside, the pattern of which has 
-                similar recurrences on the underside of Arceus's mane, tail, and face, 
-                and Arceus's pointed feet are tipped with gold hooves. Its mane is quite 
-                long, jutting away from its head, and its face is gray, with green eyes 
-                and red pupils, and a green circular pattern below its eyes. Arceus also 
-                has a streak of gold coloration on its head, and ears that point upward. 
-                Its neck is fairly long, with two pairs of extrusions to the sides, and a 
-                flap-like feature on the neck's underside that is colored white like much of 
-                the body. It also has a golden cross-like wheel attached to its body by 
-                its round abdomen, which changes color along with its eyes and hooves based 
-                on Arceus's current type. The wheel also has four jewels attached to it. 
-                The pattern of striated gray of Arceus's underbelly resumes past Arceus's 
-                waist, the underside of Arceus's limbs also being gray in coloration, and 
-                with extrusions at the tops of the legs. Arceus's tail is fairly like its mane 
-                in shape and coloration. Arceus looks like a fusion of Palkia and Dialga, 
-                resembling a wingless dragon of some sort. It's appearance also bears some 
-                resemblance to a llama. Arceus will change color as well as type with whatever 
-                type plate it is holding. It is shown with other colors of 
-                the wheel, though always being different.
-            </p>
-            <!--This is the format for the paragraph header and the related paragraph of each info section-->
-            <h3>Natural Abilities</h3>
-            <p>
-                Arceus has the ability Multitype, which is an ability exclusive only to 
-                this Pokémon. Multitype allows Arceus to change its type based on whichever 
-                plate it is currently holding, e.g. holding the Flame Plate makes it 
-                the Fire-Type. Likewise, a Splash Plate will make it a Water-Type. Generation 
-                VI introduced Fairy type, so Arceus can be a Fairy Type upon having Pixie Plate.
-            </p>
-            <p>
-                According to the Pokédex, Arceus in mythology is said to have shaped the Universe 
-                with its "1,000 " arms, though, due to Arceus not actually having any arms, it 
-                can safely be assumed that the "1,000 arms" are metaphorical. The "1,000" arms 
-                could be Arceus's move "Judgement" but this is still unknown. It has also been stated 
-                that Arceus created the Legendary Titans (otherwise known as the Dragon Trio) Dialga, 
-                Palkia, and surprisingly Giratina, as well as the Lake Guardian Trio (also known as the 
-                Lake Spirits) Uxie, Mesprit, and Azelf. Arceus can also easily hold off Giratina, Palkia, 
-                and Dialga all at the same time, making it incredibly powerful and it can speak using 
-                telepathy. Its balanced stats surpasses Mew's, Celebi's, Jirachi's, Manaphy's, and even 
-                Victini's. It is also capable of learning Draco Meteor if given the Draco Plate. It can 
-                learn nearly every move, excluding ones that require the use of arms or hands. The exception 
-                to this is Seismic Toss, although it can be presumed that it can lift its foes with telekinesis. 
-                It can be said that Arceus is arguably the most powerful Pokémon since its the creator of 
-                all Pokémon and its ability to overpower three extremely powerful 
-                legendary Pokémon (Dialga, Palkia, and Giratina.)
-            </p>
-        </article>
-        <aside align="right">
-            <!--Ad 1 here-->
-            <!--Advertismant photo set up in the aside-->
-            <figure>
-                    <img src="images/ad1ClubPenguin.png" width="267 px" legnth="368 px" alt="Club Penguin Ad"/>
-            </figure>
-            <!--Ad 2 here-->
-            <!--Advertismant photo set up in the aside-->
-            <figure>
-                    <img src="images/ad2Nintendo.jpg" width="267 px" legnth="475 px" alt="Switch Ad"/>
-            </figure>
-        </aside>
-        <!--Footer seperated by an horizontal rule, contains copyright info and contact info-->
-        <footer>
-            <hr/>
-            Copyright &copy; 2019 AshIsTen <br/>
-            Contact Us &amp; <a href="mailto:support@ashisten.com">support@ashisten.com</a> 
-            or <a href="tel:+1234567890">123-456-7890</a>
-        </footer>
+            <hr />
+        </div>
+        <div class="row">
+            <div class="col-2-4" id="article">
+                <h1>Arceus</h1>
+                <!--This is the format for the paragraph header and the related paragraph of each info section-->
+                <h3>Physiology</h3>
+                <p>
+                    Arceus is an equine being similar to a Qilin. Its body color is white 
+                    with a gray, vertically-striated underside, the pattern of which has 
+                    similar recurrences on the underside of Arceus's mane, tail, and face, 
+                    and Arceus's pointed feet are tipped with gold hooves. Its mane is quite 
+                    long, jutting away from its head, and its face is gray, with green eyes 
+                    and red pupils, and a green circular pattern below its eyes. Arceus also 
+                    has a streak of gold coloration on its head, and ears that point upward. 
+                    Its neck is fairly long, with two pairs of extrusions to the sides, and a 
+                    flap-like feature on the neck's underside that is colored white like much of 
+                    the body. It also has a golden cross-like wheel attached to its body by 
+                    its round abdomen, which changes color along with its eyes and hooves based 
+                    on Arceus's current type. The wheel also has four jewels attached to it. 
+                    The pattern of striated gray of Arceus's underbelly resumes past Arceus's 
+                    waist, the underside of Arceus's limbs also being gray in coloration, and 
+                    with extrusions at the tops of the legs. Arceus's tail is fairly like its mane 
+                    in shape and coloration. Arceus looks like a fusion of Palkia and Dialga, 
+                    resembling a wingless dragon of some sort. It's appearance also bears some 
+                    resemblance to a llama. Arceus will change color as well as type with whatever 
+                    type plate it is holding. It is shown with other colors of 
+                    the wheel, though always being different.
+                </p>
+                <!--This is the format for the paragraph header and the related paragraph of each info section-->
+                <h3>Natural Abilities</h3>
+                <p>
+                    Arceus has the ability Multitype, which is an ability exclusive only to 
+                    this Pokémon. Multitype allows Arceus to change its type based on whichever 
+                    plate it is currently holding, e.g. holding the Flame Plate makes it 
+                    the Fire-Type. Likewise, a Splash Plate will make it a Water-Type. Generation 
+                    VI introduced Fairy type, so Arceus can be a Fairy Type upon having Pixie Plate.
+                </p>
+                <p>
+                    According to the Pokédex, Arceus in mythology is said to have shaped the Universe 
+                    with its "1,000 " arms, though, due to Arceus not actually having any arms, it 
+                    can safely be assumed that the "1,000 arms" are metaphorical. The "1,000" arms 
+                    could be Arceus's move "Judgement" but this is still unknown. It has also been stated 
+                    that Arceus created the Legendary Titans (otherwise known as the Dragon Trio) Dialga, 
+                    Palkia, and surprisingly Giratina, as well as the Lake Guardian Trio (also known as the 
+                    Lake Spirits) Uxie, Mesprit, and Azelf. Arceus can also easily hold off Giratina, Palkia, 
+                    and Dialga all at the same time, making it incredibly powerful and it can speak using 
+                    telepathy. Its balanced stats surpasses Mew's, Celebi's, Jirachi's, Manaphy's, and even 
+                    Victini's. It is also capable of learning Draco Meteor if given the Draco Plate. It can 
+                    learn nearly every move, excluding ones that require the use of arms or hands. The exception 
+                    to this is Seismic Toss, although it can be presumed that it can lift its foes with telekinesis. 
+                    It can be said that Arceus is arguably the most powerful Pokémon since its the creator of 
+                    all Pokémon and its ability to overpower three extremely powerful 
+                    legendary Pokémon (Dialga, Palkia, and Giratina.)
+                </p>
+            </div>
+            <div class="col-1-4" id="quickStats">
+                <!--Pokemon Picture enclosed in a figure element-->
+                <figure>
+                    <img src="images/arceus.png" width="260 px" legnth="324 px" alt="Arceus"/>
+                </figure>
+                <!--From here down is the real content of the page, beginning with pokemon stats and moving to descriptors-->
+                <h4>Generation: 4</h4>
+                <h4>Stats</h4>
+                <!--Unordered list items for the basic stats of the pokemon-->
+                <ul>
+                    <li><strong>Base Level:</strong> <em>80</em></li>
+                    <li><strong>Type:</strong> <em>Normal, unless holding a plate</em></li>
+                    <li><strong>Height:</strong> <em>10’06”</em></li>
+                    <li><strong>Weight:</strong> <em>705.5 lbs</em></li>
+                </ul>
+            </div>
+            <div class="col-1-4" id="aside">
+                <!--Advertismant photo set up in the aside-->
+                <figure>
+                        <img src="images/ad1ClubPenguin.png" width="267 px" legnth="368 px" alt="Club Penguin Ad"/>
+                </figure>
+                <!--Advertismant photo set up in the aside-->
+                <figure>
+                        <img src="images/ad2Nintendo.jpg" width="267 px" legnth="475 px" alt="Switch Ad"/>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-1" id="footer">
+                <!--Footer seperated by an horizontal rule, contains copyright info and contact info-->
+                <footer>
+                    <hr/>
+                    Copyright &copy; 2019 Pokemon Wiki <br/>
+                    Contact Us &amp; <a href="mailto:support@PokemonWiki.com">support@PokemonWiki.com</a> 
+                    or <a href="tel:+1234567890">123-456-7890</a>
+                </footer>
+            </div>
+        </div>
     </body>
 </html>
