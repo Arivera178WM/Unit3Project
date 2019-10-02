@@ -1,22 +1,80 @@
 @charset "utf-8";
-/* jeremiah ruiz
+/* jeremiah rui
     9-30-19 */
     
 
 
 
 
-
-
-
-    /* Nav */
-
-    div.row{
-        float: left;
-        display:block;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center
+   
+    html{
+        background-color: #c40712
     }
-    div#
+
+
+    div{
+        background-color: white;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+    }
+div{
+    text-align: center
+}
+div nav ul div.col-1-4 li a{
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-style: none; 
+    padding-inline-end: 0%;
+    color: white
+    
+}
+div nav ul div.col-1-4 li{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+    background-color: #c40712
+   
+}
+ul{
+    padding-inline-start: 170px
+}
+div#nav nav ul li::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+div[class^="col-"]{
+    float: left;
+    box-sizing: border-box;
+    border: #c40712
+    
+}
+div.col-1-1{
+    width: 100%;
+}
+div.col-1-4{
+    width: 25%; 
+    background-color: #c40712
+}
+nav ul li{
+    align-content: center
+}
+h3{
+    padding-top: 0
+}
+footer a{
+    padding-bottom: 20px;
+    text-decoration:none;
+    color: firebrick
+}
+footer{
+    padding-bottom: 20px;
+    
+}
