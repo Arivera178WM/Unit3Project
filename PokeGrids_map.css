@@ -1,5 +1,8 @@
 @charset "utf-8";
-
+@font-face{
+    font-family: Bubblegum;
+    src: url(BubblegumSans-Regular.ttf) format('truetype');
+}
 /* HTML and Body Styles */
 html{
     background-color: #C40712;
@@ -9,28 +12,32 @@ body{
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 65px;
-    margin-bottom: 45px;
     background-color: white;
+    text-align: center;
+    font-family: 'Bubblegum', sans-serif;
+}
+h2{
+    font-family: 'Bubblegum';
 }
 
+/* Link Text Styles */
 a{
     text-decoration: none;
 }
 
-a:link,  a:hover{
-    color: coral;
+a:link, a:hover{
+    color: #555555;
 }
 
 a:visited{
     color: brown;
 }
+
 /* Div Col Styles */
 div[class^="col-"]{
     float: left;
     box-sizing: border-box;
 }
-
 
 div.col-1-1{width: 100%}
 div.col-1-4{width: 25%} 
@@ -41,4 +48,11 @@ div.row::after{
     clear: both;
     content: "";
     display: table;
+}
+
+/* Footer Style */
+
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
