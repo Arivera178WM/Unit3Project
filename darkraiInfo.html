@@ -11,106 +11,119 @@
         <link href="PokeGrids_Info.css" rel="styleSheet" />
     </head>
     <body>
-        <!--Header contains the sitemap and logo-->
-        <header>
-            <!--Logo-->
-            <figure>
-                <!--This is the logo image with a hyperlink to the homepage if clicked-->
-                <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="AshIsTen"/></a>
-            </figure>
-            <!--Navigation bar, has links to each section of the site map page by generation-->
-            <nav>
-                <ul>
-                    <li><a href="siteMap.html#gen1">Gen 1</a></li>
-                    <li><a href="siteMap.html#gen2">Gen 2</a></li>
-                    <li><a href="siteMap.html#gen3">Gen 3</a></li>
-                    <li><a href="siteMap.html#gen4">Gen 4</a></li>
-                </ul>
-            </nav>
-            <hr/>
-        </header>
-        <section id="quickStats" align="center">
-            <!--Pokemon Picture enclosed in a figure element-->
-            <figure>
-                <img src="images/darkrai.png" width="193 px" legnth="191 px" alt="Darkrai"/>
-            </figure>
-            <!--From here down is the real content of the page, beginning with pokemon stats and moving to descriptors-->
-            <h4>Generation: 4</h4>
-            <h4>Stats</h4>
-            <!--Unordered list items for the basic stats of the pokemon-->
+        <div class="row" id="header">
+            <div class="col-1-1">
+                <!--Logo-->
+                <figure>
+                    <!--This is the logo image with a hyperlink to the homepage if clicked-->
+                    <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="Pokemon Wiki"/></a>
+                </figure>
+            </div>
+        </div>
+        <!--Navigation bar, has links to each section of the site map page by generation-->
+        <div class="row" id="navTop">
             <ul>
-                <li><strong>Base Level:</strong> <em>50</em></li>
-                <li><strong>Type:</strong> <em>Dark</em></li>
-                <li><strong>Height:</strong> <em>4’11”</em></li>
-                <li><strong>Weight:</strong> <em>111.3 lbs</em></li>
+                <div class="col-1-4" id="gen1">
+                    <li><a href="siteMap.html#gen1">Gen 1</a></li>
+                </div>
+                <div class="col-1-4" id="gen2">
+                    <li><a href="siteMap.html#gen2">Gen 2</a></li>
+                </div>
+                <div class="col-1-4" id="gen3">
+                    <li><a href="siteMap.html#gen3">Gen 3</a></li>
+                </div>
+                <div class="col-1-4" id="gen4">
+                    <li><a href="siteMap.html#gen4">Gen 4</a></li>
+                </div>
             </ul>
-        </section>
-        <article align="left">
-            <h1>Darkrai</h1>
-            <!--This is the format for the paragraph header and the related paragraph of each info section-->
-            <h3>Physiology</h3>
-            <p>
-                The top of its body is connected to the lower half by a tiny waist, giving 
-                it an hourglass shaped figure. It has a red spiky growth around its neck 
-                and a long white mane flows from its head, obscuring one of its blue eyes. 
-                Its thin arms have three claws each, with three spiky protrusions above each 
-                elbow. Its shoulders also have long tatters and it appears to be wearing an old 
-                ripped cloak or dress. It is able to extend stilt-like extensions to use as legs.
-            </p>
-            <p>
-                Darkrai resembles a ghost or a haunted spirit but it is interesting to note that, 
-                despite it's design, Darkrai is not a Ghost type, instead being a pure Dark type.
-            </p>
-            <h3>Behaviour</h3>
-            <p>
-                Darkrai is shown to be mysterious, sinister and ominous, yet extremely misunderstood. 
-                It’s also shown to be a creature of habit for it causes nightmares, regardless of who it 
-                affects. However, there is very little evidence to prove it maliciously scares humans on purpose.
-                <br/>
-                <br/>It is hostile to Cresselia.
-            </p>
-            <h3>Game info</h3>
-            <p>
-                Darkrai first appeared in the Generation IV games Pokémon Diamond and Pearl. To obtain it, 
-                a player would have had to receive a Mystery Gift during a special promotion. It is also 
-                obtainable by using a cheat device to either receive the Mystery Gift or walk 
-                to the island it is located on.
-            </p>
-            <p>
-                In Pokémon Ranger: Shadows of Almia, Darkrai featured in a special mission named Liberate 
-                the Tower. It can be found in the location where Darkrai helped you before. It uses its ability, 
-                Dark Power, to fend off Team Dim Sun. However, the mission is no longer available for download. 
-                It was possible to send Darkrai to Pokémon Diamond, Pearl, and Platinum.
-            </p>
-            <P>
-                In Pokémon Mystery Dungeon: Explorers of Time And Explorers of Darkness, Darkrai is the main 
-                ntagonist of those games. It is discovered that Darkrai was the reason that the Hero was 
-                turned into a Pokémon and lost his or her memory when he or she had gone back in time with 
-                Grovyle to stop the temporal tower from breaking and causing Dialga to turn into Primal Dialga. 
-                After the final battle against Darkrai, he attempts to escape in a time portal, when Palkia, 
-                who is angered that Darkrai used him, shows up and destroys the time portal as Darkrai is halfway 
-                through it. He sustains a lot of damage, loses his memory and gets banished to an unknown place 
-                which is ironic seeing how he was the reason that the hero lost his or her memory.
-            </P>
-        </article>
-        <aside align="right">
-            <!--Ad 1 here-->
-            <!--Advertismant photo set up in the aside-->
-            <figure>
-                    <img src="images/ad1ClubPenguin.png" width="267 px" legnth="368 px" alt="Club Penguin Ad"/>
-            </figure>
-            <!--Ad 2 here-->
-            <!--Advertismant photo set up in the aside-->
-            <figure>
-                    <img src="images/ad2Nintendo.jpg" width="267 px" legnth="475 px" alt="Switch Ad"/>
-            </figure>
-        </aside>
-        <!--Footer seperated by an horizontal rule, contains copyright info and contact info-->
-        <footer>
-            <hr/>
-            Copyright &copy; 2019 AshIsTen <br/>
-            Contact Us &amp; <a href="mailto:support@ashisten.com">support@ashisten.com</a> 
-            or <a href="tel:+1234567890">123-456-7890</a>
-        </footer>
+            <hr />
+        </div>
+        <div class="row">
+            <div class="col-2-4" id="article">
+                <h1>Darkrai</h1>
+                <!--This is the format for the paragraph header and the related paragraph of each info section-->
+                <h3>Physiology</h3>
+                <p>
+                    The top of its body is connected to the lower half by a tiny waist, giving 
+                    it an hourglass shaped figure. It has a red spiky growth around its neck 
+                    and a long white mane flows from its head, obscuring one of its blue eyes. 
+                    Its thin arms have three claws each, with three spiky protrusions above each 
+                    elbow. Its shoulders also have long tatters and it appears to be wearing an old 
+                    ripped cloak or dress. It is able to extend stilt-like extensions to use as legs.
+                </p>
+                <p>
+                    Darkrai resembles a ghost or a haunted spirit but it is interesting to note that, 
+                    despite it's design, Darkrai is not a Ghost type, instead being a pure Dark type.
+                </p>
+                <h3>Behaviour</h3>
+                <p>
+                    Darkrai is shown to be mysterious, sinister and ominous, yet extremely misunderstood. 
+                    It’s also shown to be a creature of habit for it causes nightmares, regardless of who it 
+                    affects. However, there is very little evidence to prove it maliciously scares humans on purpose.
+                    <br/>
+                    <br/>It is hostile to Cresselia.
+                </p>
+                <h3>Game info</h3>
+                <p>
+                    Darkrai first appeared in the Generation IV games Pokémon Diamond and Pearl. To obtain it, 
+                    a player would have had to receive a Mystery Gift during a special promotion. It is also 
+                    obtainable by using a cheat device to either receive the Mystery Gift or walk 
+                    to the island it is located on.
+                </p>
+                <p>
+                    In Pokémon Ranger: Shadows of Almia, Darkrai featured in a special mission named Liberate 
+                    the Tower. It can be found in the location where Darkrai helped you before. It uses its ability, 
+                    Dark Power, to fend off Team Dim Sun. However, the mission is no longer available for download. 
+                    It was possible to send Darkrai to Pokémon Diamond, Pearl, and Platinum.
+                </p>
+                <P>
+                    In Pokémon Mystery Dungeon: Explorers of Time And Explorers of Darkness, Darkrai is the main 
+                    ntagonist of those games. It is discovered that Darkrai was the reason that the Hero was 
+                    turned into a Pokémon and lost his or her memory when he or she had gone back in time with 
+                    Grovyle to stop the temporal tower from breaking and causing Dialga to turn into Primal Dialga. 
+                    After the final battle against Darkrai, he attempts to escape in a time portal, when Palkia, 
+                    who is angered that Darkrai used him, shows up and destroys the time portal as Darkrai is halfway 
+                    through it. He sustains a lot of damage, loses his memory and gets banished to an unknown place 
+                    which is ironic seeing how he was the reason that the hero lost his or her memory.
+                </P>
+            </div>
+            <div class="col-1-4" id="quickStats">
+                <!--Pokemon Picture enclosed in a figure element-->
+                <figure>
+                    <img src="images/darkrai.png" width="193 px" legnth="191 px" alt="Darkrai"/>
+                </figure>
+                <!--From here down is the real content of the page, beginning with pokemon stats and moving to descriptors-->
+                <h4>Generation: 4</h4>
+                <h4>Stats</h4>
+                <!--Unordered list items for the basic stats of the pokemon-->
+                <ul>
+                    <li><strong>Base Level:</strong> <em>50</em></li>
+                    <li><strong>Type:</strong> <em>Dark</em></li>
+                    <li><strong>Height:</strong> <em>4’11”</em></li>
+                    <li><strong>Weight:</strong> <em>111.3 lbs</em></li>
+                </ul>
+            </div>
+            <div class="col-1-4" id="aside">
+                <!--Advertismant photo set up in the aside-->
+                <figure>
+                        <img src="images/ad1ClubPenguin.png" width="267 px" legnth="368 px" alt="Club Penguin Ad"/>
+                </figure>
+                <!--Advertismant photo set up in the aside-->
+                <figure>
+                        <img src="images/ad2Nintendo.jpg" width="267 px" legnth="475 px" alt="Switch Ad"/>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-1" id="footer">
+                <!--Footer seperated by an horizontal rule, contains copyright info and contact info-->
+                <footer>
+                    <hr/>
+                    Copyright &copy; 2019 Pokemon Wiki <br/>
+                    Contact Us &amp; <a href="mailto:support@pokemonwiki.com">support@pokemonwiki.com</a> 
+                    or <a href="tel:+1234567890">123-456-7890</a>
+                </footer>
+            </div>
+        </div>
     </body>
 </html>

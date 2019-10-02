@@ -11,105 +11,118 @@
         <link href="PokeGrids_Info.css" rel="styleSheet" />
     </head>
     <body>
-        <!--Header contains the sitemap and logo-->
-        <header>
-            <!--Logo-->
-            <figure>
-                <!--This is the logo image with a hyperlink to the homepage if clicked-->
-                <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="AshIsTen"/></a>
-            </figure>
-            <!--Navigation bar, has links to each section of the site map page by generation-->
-            <nav>
-                <ul>
-                    <li><a href="siteMap.html#gen1">Gen 1</a></li>
-                    <li><a href="siteMap.html#gen2">Gen 2</a></li>
-                    <li><a href="siteMap.html#gen3">Gen 3</a></li>
-                    <li><a href="siteMap.html#gen4">Gen 4</a></li>
-                </ul>
-            </nav>
-            <hr/>
-        </header>
-        <section id="quickStats" align="center">
-            <!--Pokemon Picture enclosed in a figure element-->
-            <figure>
-                <img src="images/groundon.png" width="349 px" legnth="138 px" alt="Groudon"/>
-            </figure>
-            <!--From here down is the real content of the page, beginning with pokemon stats and moving to descriptors-->
-            <h4>Generation: 3</h4>
-            <h4>Stats</h4>
-            <!--Unordered list items for the basic stats of the pokemon-->
+        <div class="row" id="header">
+            <div class="col-1-1">
+                <!--Logo-->
+                <figure>
+                    <!--This is the logo image with a hyperlink to the homepage if clicked-->
+                    <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="Pokemon Wiki"/></a>
+                </figure>
+            </div>
+        </div>
+        <!--Navigation bar, has links to each section of the site map page by generation-->
+        <div class="row" id="navTop">
             <ul>
-                <li><strong>Base Level:</strong> <em>45</em></li>
-                <li><strong>Type:</strong> <em>ground</em></li>
-                <li><strong>Height:</strong> <em>11'06"</em></li>
-                <li><strong>Weight:</strong> <em>2094 lbs</em></li>
+                <div class="col-1-4" id="gen1">
+                    <li><a href="siteMap.html#gen1">Gen 1</a></li>
+                </div>
+                <div class="col-1-4" id="gen2">
+                    <li><a href="siteMap.html#gen2">Gen 2</a></li>
+                </div>
+                <div class="col-1-4" id="gen3">
+                    <li><a href="siteMap.html#gen3">Gen 3</a></li>
+                </div>
+                <div class="col-1-4" id="gen4">
+                    <li><a href="siteMap.html#gen4">Gen 4</a></li>
+                </div>
             </ul>
-        </section>
-        <article align="left">
-            <h1>Groudon</h1>
-            <!--This is the format for the paragraph header and the related paragraph of each info section-->
-            <h3>Physiology</h3>
-            <p>
-                Groudon is a red, black, grey, and white Pokémon with yellow eyes. It has white spikes on its tail and neck. 
-                It has white, sharp claws on both its hand and it also has white toes. It has a grayish underbelly. It has a 
-                large tail with three sharp, white spikes appearing on the left hand side and right hand side of its tail. A 
-                black pattern also goes along its body.
-            </p>
-            <p> Groudon is an immensely powerful Pokémon, having the ability to summon intense droughts and cause volcanic eruptions. 
-                The droughts it can cause allow it to evaporate water, while the volcanic eruptions it can summon enable it to create 
-                land. It sleeps underground in large magma chambers. If it encounters its rival, Kyogre, they will engage in a cataclysmic 
-                battle. Groudon is the only known Pokémon capable of learning the move Precipice Blades.
-            </p>
-            <h3>Primal Groudon</h3>
-            <p>
-                    As Primal Groudon, it becomes larger and has a deep, crimson body. The spikes on both sides of its body, tail, 
-                    jagged teeth and underbelly are black, with the spikes on the tail becoming longer and facing diagonally, instead 
-                    of being straight. The four blades at the end of its tail are now split. Its sharp claws on its hands and its claws 
-                    on its feet remain pure white. Both of Primal Groudon's hands bear an Omega symbol on them. The markings, some of 
-                    which extend to its underbelly on its body and the Omega symbols it bears, glow bright yellow, as if lava is flowing 
-                    inside of it, including the inside of its mouth and around its eyes, which changes to an orange-red color.In the anime,
-                    Primal Groudon is said to create new land with every step it takes.
-            </p>
-            <h3>Evolution</h3>
-            <p>
-                    Groudon does not evolve. However, in Omega Ruby and Alpha Sapphire, it is capable of undergoing Primal Reversion in 
-                    battle if it holds the Red Orb.
-            </p>
-            <h3>Game info</h3>
-            <p>
-                    In Pokémon Mystery Dungeon: Red Rescue Team/Blue Rescue Team, Groudon appears as one of the main villains. 
-                    After the hero, the partner, and the Alakazam's Team discovered the truth about Ninetales' Legend, he causes an 
-                    earthquake and, later in the game, the hero and the partner have to go to the deep of Magma Cavern to save Alakazam`s 
-                    Team, defeating Groudon. After his defeat, he can be recruitable to the Rescue Team. He has a minor appearance in the 
-                    next game, when he appears as an illusion created by Uxie. It is one of the heaviest Pokémon, as can be observed in 
-                    the RSE Pokédex.
-            </p>
-            <p>
-                    In Super Smash Bros. Brawl, it makes an appearance as an assist trophy and like the other ancient Pokémon from 
-                    Emerald/Sapphire/Ruby, it makes a non-playable appearance. Groudon will on the screen as a very large Pokémon 
-                    and will glow a red color making it a fire attacker. It will be completely invincible and will launch any fighter 
-                    away from it except the one who uses it, and because of this, it can be used as somewhat of a shield. Groudon will
-                    not attack, but will turn around and road
-            </p>
-        </article>
-        <aside align="right">
-            <!--Ad 1 here-->
-            <!--Advertismant photo set up in the aside-->
-            <figure>
-                    <img src="images/ad1ClubPenguin.png" width="267 px" legnth="368 px" alt="Club Penguin Ad"/>
-            </figure>
-            <!--Ad 2 here-->
-            <!--Advertismant photo set up in the aside-->
-            <figure>
-                    <img src="images/ad2Nintendo.jpg" width="267 px" legnth="475 px" alt="Switch Ad"/>
-            </figure>
-        </aside>
-        <!--Footer seperated by an horizontal rule, contains copyright info and contact info-->
-        <footer>
-            <hr/>
-            Copyright &copy; 2019 AshIsTen <br/>
-            Contact Us &amp; <a href="mailto:support@ashisten.com">support@ashisten.com</a> 
-            or <a href="tel:+1234567890">123-456-7890</a>
-        </footer>
+            <hr />
+        </div>
+        <div class="row">
+            <div class="col-2-4" id="article">
+                <h1>Groudon</h1>
+                <!--This is the format for the paragraph header and the related paragraph of each info section-->
+                <h3>Physiology</h3>
+                <p>
+                    Groudon is a red, black, grey, and white Pokémon with yellow eyes. It has white spikes on its tail and neck. 
+                    It has white, sharp claws on both its hand and it also has white toes. It has a grayish underbelly. It has a 
+                    large tail with three sharp, white spikes appearing on the left hand side and right hand side of its tail. A 
+                    black pattern also goes along its body.
+                </p>
+                <p> Groudon is an immensely powerful Pokémon, having the ability to summon intense droughts and cause volcanic eruptions. 
+                    The droughts it can cause allow it to evaporate water, while the volcanic eruptions it can summon enable it to create 
+                    land. It sleeps underground in large magma chambers. If it encounters its rival, Kyogre, they will engage in a cataclysmic 
+                    battle. Groudon is the only known Pokémon capable of learning the move Precipice Blades.
+                </p>
+                <h3>Primal Groudon</h3>
+                <p>
+                        As Primal Groudon, it becomes larger and has a deep, crimson body. The spikes on both sides of its body, tail, 
+                        jagged teeth and underbelly are black, with the spikes on the tail becoming longer and facing diagonally, instead 
+                        of being straight. The four blades at the end of its tail are now split. Its sharp claws on its hands and its claws 
+                        on its feet remain pure white. Both of Primal Groudon's hands bear an Omega symbol on them. The markings, some of 
+                        which extend to its underbelly on its body and the Omega symbols it bears, glow bright yellow, as if lava is flowing 
+                        inside of it, including the inside of its mouth and around its eyes, which changes to an orange-red color.In the anime,
+                        Primal Groudon is said to create new land with every step it takes.
+                </p>
+                <h3>Evolution</h3>
+                <p>
+                        Groudon does not evolve. However, in Omega Ruby and Alpha Sapphire, it is capable of undergoing Primal Reversion in 
+                        battle if it holds the Red Orb.
+                </p>
+                <h3>Game info</h3>
+                <p>
+                        In Pokémon Mystery Dungeon: Red Rescue Team/Blue Rescue Team, Groudon appears as one of the main villains. 
+                        After the hero, the partner, and the Alakazam's Team discovered the truth about Ninetales' Legend, he causes an 
+                        earthquake and, later in the game, the hero and the partner have to go to the deep of Magma Cavern to save Alakazam`s 
+                        Team, defeating Groudon. After his defeat, he can be recruitable to the Rescue Team. He has a minor appearance in the 
+                        next game, when he appears as an illusion created by Uxie. It is one of the heaviest Pokémon, as can be observed in 
+                        the RSE Pokédex.
+                </p>
+                <p>
+                        In Super Smash Bros. Brawl, it makes an appearance as an assist trophy and like the other ancient Pokémon from 
+                        Emerald/Sapphire/Ruby, it makes a non-playable appearance. Groudon will on the screen as a very large Pokémon 
+                        and will glow a red color making it a fire attacker. It will be completely invincible and will launch any fighter 
+                        away from it except the one who uses it, and because of this, it can be used as somewhat of a shield. Groudon will
+                        not attack, but will turn around and road
+                </p>
+            </div>
+            <div class="col-1-4" id="quickStats">
+                <!--Pokemon Picture enclosed in a figure element-->
+                <figure>
+                    <img src="images/groundon.png" width="349 px" legnth="138 px" alt="Groudon"/>
+                </figure>
+                <!--From here down is the real content of the page, beginning with pokemon stats and moving to descriptors-->
+                <h4>Generation: 3</h4>
+                <h4>Stats</h4>
+                <!--Unordered list items for the basic stats of the pokemon-->
+                <ul>
+                    <li><strong>Base Level:</strong> <em>45</em></li>
+                    <li><strong>Type:</strong> <em>ground</em></li>
+                    <li><strong>Height:</strong> <em>11'06"</em></li>
+                    <li><strong>Weight:</strong> <em>2094 lbs</em></li>
+                </ul>
+            </div>
+            <div class="col-1-4" id="aside">
+                <!--Advertismant photo set up in the aside-->
+                <figure>
+                        <img src="images/ad1ClubPenguin.png" width="267 px" legnth="368 px" alt="Club Penguin Ad"/>
+                </figure>
+                <!--Advertismant photo set up in the aside-->
+                <figure>
+                        <img src="images/ad2Nintendo.jpg" width="267 px" legnth="475 px" alt="Switch Ad"/>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-1" id="footer">
+                <!--Footer seperated by an horizontal rule, contains copyright info and contact info-->
+                <footer>
+                    <hr/>
+                    Copyright &copy; 2019 Pokemon Wiki <br/>
+                    Contact Us &amp; <a href="mailto:support@pokemonwiki.com">support@pokemonwiki.com</a> 
+                    or <a href="tel:+1234567890">123-456-7890</a>
+                </footer>
+            </div>
+        </div>
     </body>
 </html>

@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* HTML and Body Styles */
+html{
+    background-color: #C40712;
+}
+
+body{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 65px;
+    margin-bottom: 45px;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link,  a:hover{
+    color: coral;
+}
+
+a:visited{
+    color: brown;
+}
+/* Div Col Styles */
+div[class^="col-"]{
+    float: left;
+    box-sizing: border-box;
+}
+
+
+div.col-1-1{width: 100%}
+div.col-1-4{width: 25%} 
+div.col-3-4{width: 75%}
+
+/* Div Row Thingyyyyy */
+div.row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
