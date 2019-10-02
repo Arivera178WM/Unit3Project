@@ -20,11 +20,10 @@ Aspen:
         -Design colors based on what you think looks best
 Zac:
     PokeReset.css
-        -Find a Reset file somewhere
+        -Find a Reset file somewhere -Done
 
 Abe:
     PokeStyles.css
-
         -Ensure all styles apply to the correct tags for what the HTML file will be
         -This one is only for all styles unless it's not possible, then do one for each layout type
 

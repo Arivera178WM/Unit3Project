@@ -11,86 +11,99 @@
         <link href="PokeGrids_Info.css" rel="styleSheet" />
     </head>
     <body>
-        <!--Header contains the sitemap and logo-->
-        <header>
-            <!--Logo-->
-            <figure>
-                <!--This is the logo image with a hyperlink to the homepage if clicked-->
-                <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="AshIsTen"/></a>
-            </figure>
-            <!--Navigation bar, has links to each section of the site map page by generation-->
-            <nav>
-                <ul>
-                    <li><a href="siteMap.html#gen1">Gen 1</a></li>
-                    <li><a href="siteMap.html#gen2">Gen 2</a></li>
-                    <li><a href="siteMap.html#gen3">Gen 3</a></li>
-                    <li><a href="siteMap.html#gen4">Gen 4</a></li>
-                </ul>
-            </nav>
-            <hr/>
-        </header>
-        <section id="quickStats" align="center">
-            <!--Pokemon Picture enclosed in a figure element-->
-            <figure>
-                <img src="images/dialga.png"width="197 px" legnth="207 px" alt="Dialga"/>
-            </figure>
-            <!--From here down is the real content of the page, beginning with pokemon stats and moving to descriptors-->
-            <h4>Generation: 4</h4>
-            <h4>Stats</h4>
-            <!--Unordered list items for the basic stats of the pokemon-->
+        <div class="row" id="header">
+            <div class="col-1-1">
+                <!--Logo-->
+                <figure>
+                    <!--This is the logo image with a hyperlink to the homepage if clicked-->
+                    <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="Pokemon Wiki"/></a>
+                </figure>
+            </div>
+        </div>
+        <!--Navigation bar, has links to each section of the site map page by generation-->
+        <div class="row" id="navTop">
             <ul>
-                <li><strong>Base Level:</strong> <em>47</em></li>
-                <li><strong>Type:</strong> <em>Steel Dragon</em></li>
-                <li><strong>Height:</strong> <em>17'09"</em></li>
-                <li><strong>Weight:</strong> <em>1505.8 lbs</em></li>
+                <div class="col-1-4" id="gen1">
+                    <li><a href="siteMap.html#gen1">Gen 1</a></li>
+                </div>
+                <div class="col-1-4" id="gen2">
+                    <li><a href="siteMap.html#gen2">Gen 2</a></li>
+                </div>
+                <div class="col-1-4" id="gen3">
+                    <li><a href="siteMap.html#gen3">Gen 3</a></li>
+                </div>
+                <div class="col-1-4" id="gen4">
+                    <li><a href="siteMap.html#gen4">Gen 4</a></li>
+                </div>
             </ul>
-        </section>
-        <article align="left">
-            <h1>Dialga</h1>
-            <!--This is the format for the paragraph header and the related paragraph of each info section-->
-            <h3>Physiology </h3>
-            <p>
-                Dialga is a sauropod-like Pokémon. It is mainly blue with some gray, metallic portions, such as 
-                its chest plate, which has a diamond in the center. It also has various, light blue lines all over its body. 
-                It has a, somewhat, wing-like structure on its back, and a crest on its head, resembling a type of dinosaur. 
-                Dialga also has two horns on top of its head, two fang-like horns around its mouth, long claws, and a short tail, 
-                almost the impression of armor.
-            </p>
-            <h3>Natural abilities</h3>
-            <p>
-                Dialga has the ability Pressure, which causes the opposing Pokémon to use twice as much PP for every 
-                successful hit.
-            </p>
-            <p>
-                Dialga has the ability to control time. Dialga, like many other Dragon-type Pokémon, can use many different 
-                elemental attacks. It is also one of the few Pokémon that can learn the move Aura Sphere. Capturing it gives an 
-                item called the Adamant Orb, which strengthens Dialga's steel and dragon type moves by 20%
-            </p>
-            <h3>Behavior</h3>
-            <p>
-                Dialga was created when Arceus hatched from its egg and created the world. Arceus tasked Dialga, Palkia, 
-                and Giratina to create time, space, and anti-matter respectively. Dialga was worshiped as the master of 
-                time and metal, as it is a steel-type pokemon. It is said that time flows whenever Dialga’s heartbeat pulsates.
-            </p>
-        </article>
-        <aside align="right">
-            <!--Ad 1 here-->
-            <!--Advertismant photo set up in the aside-->
-            <figure>
-                    <img src="images/ad1ClubPenguin.png" width="267 px" legnth="368 px" alt="Club Penguin Ad"/>
-            </figure>
-            <!--Ad 2 here-->
-            <!--Advertismant photo set up in the aside-->
-            <figure>
-                    <img src="images/ad2Nintendo.jpg" width="267 px" legnth="475 px" alt="Switch Ad"/>
-            </figure>
-        </aside>
-        <!--Footer seperated by an horizontal rule, contains copyright info and contact info-->
-        <footer>
-            <hr/>
-            Copyright &copy; 2019 AshIsTen <br/>
-            Contact Us &amp; <a href="mailto:support@ashisten.com">support@ashisten.com</a> 
-            or <a href="tel:+1234567890">123-456-7890</a>
-        </footer>
+            <hr />
+        </div>
+        <div class="row">
+            <div class="col-2-4" id="article">
+                <h1>Dialga</h1>
+                <!--This is the format for the paragraph header and the related paragraph of each info section-->
+                <h3>Physiology </h3>
+                <p>
+                    Dialga is a sauropod-like Pokémon. It is mainly blue with some gray, metallic portions, such as 
+                    its chest plate, which has a diamond in the center. It also has various, light blue lines all over its body. 
+                    It has a, somewhat, wing-like structure on its back, and a crest on its head, resembling a type of dinosaur. 
+                    Dialga also has two horns on top of its head, two fang-like horns around its mouth, long claws, and a short tail, 
+                    almost the impression of armor.
+                </p>
+                <h3>Natural abilities</h3>
+                <p>
+                    Dialga has the ability Pressure, which causes the opposing Pokémon to use twice as much PP for every 
+                    successful hit.
+                </p>
+                <p>
+                    Dialga has the ability to control time. Dialga, like many other Dragon-type Pokémon, can use many different 
+                    elemental attacks. It is also one of the few Pokémon that can learn the move Aura Sphere. Capturing it gives an 
+                    item called the Adamant Orb, which strengthens Dialga's steel and dragon type moves by 20%
+                </p>
+                <h3>Behavior</h3>
+                <p>
+                    Dialga was created when Arceus hatched from its egg and created the world. Arceus tasked Dialga, Palkia, 
+                    and Giratina to create time, space, and anti-matter respectively. Dialga was worshiped as the master of 
+                    time and metal, as it is a steel-type pokemon. It is said that time flows whenever Dialga’s heartbeat pulsates.
+                </p>
+            </div>
+            <div class="col-1-4" id="quickStats">
+                <!--Pokemon Picture enclosed in a figure element-->
+                <figure>
+                    <img src="images/dialga.png"width="197 px" legnth="207 px" alt="Dialga"/>
+                </figure>
+                <!--From here down is the real content of the page, beginning with pokemon stats and moving to descriptors-->
+                <h4>Generation: 4</h4>
+                <h4>Stats</h4>
+                <!--Unordered list items for the basic stats of the pokemon-->
+                <ul>
+                    <li><strong>Base Level:</strong> <em>47</em></li>
+                    <li><strong>Type:</strong> <em>Steel Dragon</em></li>
+                    <li><strong>Height:</strong> <em>17'09"</em></li>
+                    <li><strong>Weight:</strong> <em>1505.8 lbs</em></li>
+                </ul>
+            </div>
+            <div class="col-1-4" id="aside">
+                <!--Advertismant photo set up in the aside-->
+                <figure>
+                        <img src="images/ad1ClubPenguin.png" width="267 px" legnth="368 px" alt="Club Penguin Ad"/>
+                </figure>
+                <!--Advertismant photo set up in the aside-->
+                <figure>
+                        <img src="images/ad2Nintendo.jpg" width="267 px" legnth="475 px" alt="Switch Ad"/>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-1" id="footer">
+                <!--Footer seperated by an horizontal rule, contains copyright info and contact info-->
+                <footer>
+                    <hr/>
+                    Copyright &copy; 2019 Pokemon Wiki <br/>
+                    Contact Us &amp; <a href="mailto:support@pokemonwiki.com">support@pokemonwiki.com</a> 
+                    or <a href="tel:+1234567890">123-456-7890</a>
+                </footer>
+            </div>
+        </div>
     </body>
 </html>
