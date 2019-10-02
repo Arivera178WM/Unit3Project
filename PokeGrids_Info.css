@@ -1,0 +1,63 @@
+/** General page styles */
+html{
+    background-color: #C40712;
+}
+body{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 65px;
+    margin-bottom: 45px;
+    background-color: white;
+    padding: 10px 15px;
+}
+
+/** Link styles */
+a{
+    text-decoration: none;
+}
+a:link, a:hover{
+    color: coral;
+}
+a:visited, a:link{
+    color: brown;
+}
+div#navTop ul{
+    text-decoration: none;
+}
+/** Grid layout Styles */
+div.row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+div[class^="col-"]{
+    float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+/** Grid definitions */
+div.col-1-1{width: 100%}
+div.col-1-4{width: 25%} 
+div.col-2-4{width: 50%}
+
+/** Styles */
+
+p{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+div.row#header img{
+    width: 50%;
+}
+div#header{
+    margin-right: auto;
+    margin-left: auto;
+    clear: both;
+}
+img{
+    width: 100%;
+}

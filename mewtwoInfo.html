@@ -11,118 +11,131 @@
         <link href="PokeGrids_Info.css" rel="styleSheet" />
     </head>
     <body>
-        <!--Header contains the sitemap and logo-->
-        <header>
-            <!--Logo-->
-            <figure>
-                <!--This is the logo image with a hyperlink to the homepage if clicked-->
-                <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="Pokemon Wiki"/></a>
-            </figure>
-            <!--Navigation bar, has links to each section of the site map page by generation-->
-            <nav>
-                <ul>
-                    <li><a href="siteMap.html#gen1">Gen 1</a></li>
-                    <li><a href="siteMap.html#gen2">Gen 2</a></li>
-                    <li><a href="siteMap.html#gen3">Gen 3</a></li>
-                    <li><a href="siteMap.html#gen4">Gen 4</a></li>
-                </ul>
-            </nav>
-            <hr/>
-        </header>
-        <section id="quickStats" align="center">
-            <!--Pokemon Picture enclosed in a figure element-->
-            <figure>
-                <img src="images/mewtwo.png" width="196 px" legnth="227 px" alt="Mewtwo"/>
-            </figure>
-            <!--From here down is the real content of the page, beginning with pokemon stats and moving to descriptors-->
-            <h4>Generation: 1</h4>
-            <h4>Stats</h4>
-            <!--Unordered list items for the basic stats of the pokemon-->
+        <div class="row" id="header">
+            <div class="col-1-1">
+                <!--Logo-->
+                <figure>
+                    <!--This is the logo image with a hyperlink to the homepage if clicked-->
+                    <a href="index.html"><img src="images/logo.png" width="350 px" legnth="350 px" alt="Pokemon Wiki"/></a>
+                </figure>
+            </div>
+        </div>
+        <!--Navigation bar, has links to each section of the site map page by generation-->
+        <div class="row" id="navTop">
             <ul>
-                <li><strong>Base Level:</strong> <em>70</em></li>
-                <li><strong>Type:</strong> <em>Psychic</em></li>
-                <li><strong>Height:</strong> <em>6’07”</em></li>
-                <li><strong>Weight:</strong> <em>269 lbs</em></li>
+                <div class="col-1-4" id="gen1">
+                    <li><a href="siteMap.html#gen1">Gen 1</a></li>
+                </div>
+                <div class="col-1-4" id="gen2">
+                    <li><a href="siteMap.html#gen2">Gen 2</a></li>
+                </div>
+                <div class="col-1-4" id="gen3">
+                    <li><a href="siteMap.html#gen3">Gen 3</a></li>
+                </div>
+                <div class="col-1-4" id="gen4">
+                    <li><a href="siteMap.html#gen4">Gen 4</a></li>
+                </div>
             </ul>
-        </section>
-        <article align="left">
-            <h1>Mewtwo</h1>
-            <!--This is the format for the paragraph header and the related paragraph of each info section-->
-            <h3>Physiology</h3>
-            <p>
-                    Mewtwo is a bipedal feline-like Pokémon. Its appearance 
-                    is loosely based on Mew, with a more of a mutated humanoid 
-                    look in addition to its feline traits. Its body is purple 
-                    and it has three fingers on each hand. Mewtwo projects 
-                    a faint purple aura when at full power.
-            </p>
-            <!--This is the format for the paragraph header and the related paragraph of each info section-->
-            <h3>Forms</h3>
-            <p>
-                    Mewtwo has an Anime/Manga exclusive form named Armored Mewtwo 
-                    in the anime, and M2 Bind in the Manga. In the anime the form 
-                    increases all of Mewtwo's Psychic abilities, and in the manga 
-                    it allows Giovanni to control it. Mewtwo also has another form 
-                    exclusive to the Pocket Monsters manga, where it takes on the 
-                    DNA of a Clefairy, becoming a shorter, fatter and much stronger 
-                    version of itself. Titling itself "Mewthree", it started its quest 
-                    of cooking the best bacon ever until Satoshi managed to calm it 
-                    down with his bacon. After going into a tantrum, screaming out 
-                    "This isn't even my final form!", Mewthree split back into Clefairy and Mewtwo.
-            </p>
-            <!--This is the format for the paragraph header and the related paragraph of each info section-->
-            <h3>Characteristics</h3>
-            <p>
-                    Mewtwo is highly adept at utilizing its Psychic powers, displaying 
-                    telekinesis and telepathy as well. It utilizes its telepathy to 
-                    communicate with humans and translate the Pokémon language. It 
-                    uses its telekinesis to fly, block special abilities, and expunge 
-                    people's recollections as optically discerned in Mewtwo Strikes Back.
-            </p>
-            <!--This is the format for the paragraph header and the related paragraph of each info section-->
-            <h3>Behavior</h3>
-            <p>
-                    As evidence of its immense power, Mewtwo is by far one of the most 
-                    domineering Pokémon in the series. It's power is so great to the point 
-                    where it can endure immense torture in Mewtwo Returns, and teleport a 
-                    lake miles long underground! Proven in the first Pokémon Movie, Mewtwo 
-                    holds a large degree of pride in its personality. In fact, it general nature 
-                    is so complex that it borderlines that of human levels with itself capable 
-                    of learning and evolving just to get the upper hand in battle. Indeed, Mewtwo's 
-                    title of "The World's Most Powerful Pokémon" shouldn't be undermined.
-            </p>
-            <!--This is the format for the paragraph header and the related paragraph of each info section-->
-            <h3>Personality</h3>
-            <p>
-                    Mewtwo is extremely arrogant, cold and aggressive. He is also anti social 
-                    and does not speak or smile much, however he has been seen smirking when being 
-                    sure of himself or if he thinks lowly of someone.
-            </p>
-            <!--This is the format for the paragraph header and the related paragraph of each info section-->
-            <h3>Evolution</h3>
-            <p>
-                    Mewtwo cannot evolve. However, it can Mega Evolve with the 
-                    use of a Mewtwonite X or a Mewtwonite Y.
-            </p>
-        </article>
-        <aside align="right">
-            <!--Ad 1 here-->
-            <!--Advertismant photo set up in the aside-->
-            <figure>
-                    <img src="images/ad1ClubPenguin.png" width="267 px" legnth="368 px" alt="Club Penguin Ad"/>
-            </figure>
-            <!--Ad 2 here-->
-            <!--Advertismant photo set up in the aside-->
-            <figure>
-                    <img src="images/ad2Nintendo.jpg" width="267 px" legnth="475 px" alt="Switch Ad"/>
-            </figure>
-        </aside>
-        <!--Footer seperated by an horizontal rule, contains copyright info and contact info-->
-        <footer>
-            <hr/>
-            Copyright &copy; 2019 Pokemon Wiki <br/>
-            Contact Us &amp; <a href="mailto:support@pokemonwiki.com">support@pokemonwiki.com</a> 
-            or <a href="tel:+1234567890">123-456-7890</a>
-        </footer>
+            <hr />
+        </div>
+        <div class="row">
+            <div class="col-2-4" id="article">
+                <h1>Mewtwo</h1>
+                <!--This is the format for the paragraph header and the related paragraph of each info section-->
+                <h3>Physiology</h3>
+                <p>
+                        Mewtwo is a bipedal feline-like Pokémon. Its appearance 
+                        is loosely based on Mew, with a more of a mutated humanoid 
+                        look in addition to its feline traits. Its body is purple 
+                        and it has three fingers on each hand. Mewtwo projects 
+                        a faint purple aura when at full power.
+                </p>
+                <!--This is the format for the paragraph header and the related paragraph of each info section-->
+                <h3>Forms</h3>
+                <p>
+                        Mewtwo has an Anime/Manga exclusive form named Armored Mewtwo 
+                        in the anime, and M2 Bind in the Manga. In the anime the form 
+                        increases all of Mewtwo's Psychic abilities, and in the manga 
+                        it allows Giovanni to control it. Mewtwo also has another form 
+                        exclusive to the Pocket Monsters manga, where it takes on the 
+                        DNA of a Clefairy, becoming a shorter, fatter and much stronger 
+                        version of itself. Titling itself "Mewthree", it started its quest 
+                        of cooking the best bacon ever until Satoshi managed to calm it 
+                        down with his bacon. After going into a tantrum, screaming out 
+                        "This isn't even my final form!", Mewthree split back into Clefairy and Mewtwo.
+                </p>
+                <!--This is the format for the paragraph header and the related paragraph of each info section-->
+                <h3>Characteristics</h3>
+                <p>
+                        Mewtwo is highly adept at utilizing its Psychic powers, displaying 
+                        telekinesis and telepathy as well. It utilizes its telepathy to 
+                        communicate with humans and translate the Pokémon language. It 
+                        uses its telekinesis to fly, block special abilities, and expunge 
+                        people's recollections as optically discerned in Mewtwo Strikes Back.
+                </p>
+                <!--This is the format for the paragraph header and the related paragraph of each info section-->
+                <h3>Behavior</h3>
+                <p>
+                        As evidence of its immense power, Mewtwo is by far one of the most 
+                        domineering Pokémon in the series. It's power is so great to the point 
+                        where it can endure immense torture in Mewtwo Returns, and teleport a 
+                        lake miles long underground! Proven in the first Pokémon Movie, Mewtwo 
+                        holds a large degree of pride in its personality. In fact, it general nature 
+                        is so complex that it borderlines that of human levels with itself capable 
+                        of learning and evolving just to get the upper hand in battle. Indeed, Mewtwo's 
+                        title of "The World's Most Powerful Pokémon" shouldn't be undermined.
+                </p>
+                <!--This is the format for the paragraph header and the related paragraph of each info section-->
+                <h3>Personality</h3>
+                <p>
+                        Mewtwo is extremely arrogant, cold and aggressive. He is also anti social 
+                        and does not speak or smile much, however he has been seen smirking when being 
+                        sure of himself or if he thinks lowly of someone.
+                </p>
+                <!--This is the format for the paragraph header and the related paragraph of each info section-->
+                <h3>Evolution</h3>
+                <p>
+                        Mewtwo cannot evolve. However, it can Mega Evolve with the 
+                        use of a Mewtwonite X or a Mewtwonite Y.
+                </p>
+            </div>
+            <div class="col-1-4" id="quickStats">
+                <!--Pokemon Picture enclosed in a figure element-->
+                <figure>
+                    <img src="images/mewtwo.png" width="196 px" legnth="227 px" alt="Mewtwo"/>
+                </figure>
+                <!--From here down is the real content of the page, beginning with pokemon stats and moving to descriptors-->
+                <h4>Generation: 1</h4>
+                <h4>Stats</h4>
+                <!--Unordered list items for the basic stats of the pokemon-->
+                <ul>
+                    <li><strong>Base Level:</strong> <em>70</em></li>
+                    <li><strong>Type:</strong> <em>Psychic</em></li>
+                    <li><strong>Height:</strong> <em>6’07”</em></li>
+                    <li><strong>Weight:</strong> <em>269 lbs</em></li>
+                </ul>
+            </div>
+            <div class="col-1-4" id="aside">
+                <!--Advertismant photo set up in the aside-->
+                <figure>
+                        <img src="images/ad1ClubPenguin.png" width="267 px" legnth="368 px" alt="Club Penguin Ad"/>
+                </figure>
+                <!--Advertismant photo set up in the aside-->
+                <figure>
+                        <img src="images/ad2Nintendo.jpg" width="267 px" legnth="475 px" alt="Switch Ad"/>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-1" id="footer">
+                <!--Footer seperated by an horizontal rule, contains copyright info and contact info-->
+                <footer>
+                    <hr/>
+                    Copyright &copy; 2019 Pokemon Wiki <br/>
+                    Contact Us &amp; <a href="mailto:support@pokemonwiki.com">support@pokemonwiki.com</a> 
+                    or <a href="tel:+1234567890">123-456-7890</a>
+                </footer>
+            </div>
+        </div>
     </body>
 </html>
