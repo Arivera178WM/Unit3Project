@@ -2,30 +2,30 @@ CSS ToDo:
 
 Zac:
     PokeGrids_Info.css
-        -Layouts for Info pages
-        -Grid based
-        -make sure all components go in grid
+        -Layouts for Info pages - Done
+        -Grid based - Done
+        -make sure all components go in grid - Done
 
 Jerry:
     PokeGrids_home.css
-        -Layouts for index (home) page
-        -Grid based
-        -make sure all components go in grid
+        -Layouts for index (home) page - Done
+        -Grid based - Done
+        -make sure all components go in grid - Done
 
 Aspen:
     PokeGrids_map.css
-        -Layouts for site map page
-        -Grid based
-        -make sure all components go in grid
-        -Design colors based on what you think looks best
+        -Layouts for site map page - Done
+        -Grid based - Done
+        -make sure all components go in grid - Done
+        -Design colors based on what you think looks best - Done
 Zac:
     PokeReset.css
         -Find a Reset file somewhere - Done
 
 Abe:
     PokeStyles.css
-        -Ensure all styles apply to the correct tags for what the HTML file will be
-        -This one is only for all styles unless it's not possible, then do one for each layout type
+        -Ensure all styles apply to the correct tags for what the HTML file will be - Done
+        -This one is only for all styles unless it's not possible, then do one for each layout type - Done
 
 HTML ToDo:
 

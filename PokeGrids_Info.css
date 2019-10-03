@@ -1,29 +1,50 @@
+@charset "utf-8";
+@font-face{
+    font-family: Bubblegum;
+    src: url(BubblegumSans-Regular.ttf) format('truetype');
+}
 /** General page styles */
 html{
     background-color: #C40712;
 }
 body{
-    width: 80%;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 65px;
-    margin-bottom: 45px;
     background-color: white;
     padding: 10px 15px;
+    font-family: 'Bubblegum', sans-serif;
 }
-
-/** Link styles */
-a{
+img{
+    display: block;
+    width: 100%;
+}
+/** Header Styles */
+div.row#header img{
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+/** Nav Styles */
+/** Creates a line below the nav to better divide it from the info page */
+div#navTop{
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-color: #c40711;
+    margin-bottom: 10px;
+}
+div#navTop a{
     text-decoration: none;
-}
-a:link, a:hover{
-    color: coral;
-}
-a:visited, a:link{
+    font-size: 1.5vw;
+    text-align: center;
+    padding-bottom: 20px;
     color: brown;
 }
-div#navTop ul{
-    text-decoration: none;
+div#navTop a:hover, div#navTop a:active{
+    color: coral;
 }
 /** Grid layout Styles */
 div.row::after{
@@ -38,26 +59,65 @@ div[class^="col-"]{
     -webkit-box-sizing: border-box;
 }
 /** Grid definitions */
-div.col-1-1{width: 100%}
-div.col-1-4{width: 25%} 
-div.col-2-4{width: 50%}
-
-/** Styles */
-
-p{
-    text-align: center;
+div.col-1-1{width: 100%;}
+div.col-1-4{width: 25%;}
+div.col-2-4{width: 50%;}
+/** Article Styles */
+div#article h1{
+    font-size: 4.2vw;
+    margin: 0px;
 }
+div#article h3{
+    font-size: 1.7vw;
+    margin: 0px;
+}
+div#article p{
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+/** Quick Stats Styles */
+div#quickStats{
+    padding-left: 25px;
+    display: block;
+}
+div#quickStats h4:nth-of-type(1){
+    font-size: 40px;
+    margin: 0px;
+}
+div#quickStats h4:nth-of-type(2){
+    font-size: 30px;
+    margin: 0px;
+}
+div#quickStats h4, div#quickStats li{
+    text-align: right;
+}
+div#quickStats li{
+    list-style: none;
+    font-size: 22px;
+}
+/** Aside Styles */
+div#aside img{
+    width: 75%;
+    float: right;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+/** Footer and Footer Link Styles */
+footer a{
+    text-decoration:none;
+    color: firebrick;
+}
+/** Sets some room below the footer to make the page look less squished */
+/** Adds some room between the footer division line and the footer */
+/** Also adds a makeshift horizontal line between the footer and the main page */
 footer{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-color: #c40711;
+    margin-top: 10px;
     text-align: center;
-}
-div.row#header img{
-    width: 50%;
-}
-div#header{
-    margin-right: auto;
-    margin-left: auto;
-    clear: both;
-}
-img{
-    width: 100%;
 }

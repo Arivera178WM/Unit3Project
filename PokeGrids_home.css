@@ -1,80 +1,85 @@
 @charset "utf-8";
-/* jeremiah rui
-    9-30-19 */
-    
-
-
-
-
-   
-    html{
-        background-color: #c40712
-    }
-
-
-    div{
-        background-color: white;
-        margin-right: auto;
-        margin-left: auto;
-        width: 80%;
-    }
-div{
-    text-align: center
+@font-face{
+    font-family: Bubblegum;
+    src: url(BubblegumSans-Regular.ttf) format('truetype');
 }
-div nav ul div.col-1-4 li a{
-    float: left;
-    display: block;
+/**
+ * jeremiah rui
+ * 9-30-2019
+ * */
+
+/** Overall Page Styles */
+html{
+    background-color: #c40712;
+}
+body{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 65px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Bubblegum', sans-serif;
+    text-align: center;
+}
+/** Link Structure Styles */
+div#nav{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+div#nav a{
     text-decoration: none;
-    text-decoration-style: none; 
-    padding-inline-end: 0%;
-    color: white
-    
+    font-size: 1.5vw;
+    text-align: center;
+    padding-bottom: 20px;
+    color: brown;
 }
-div nav ul div.col-1-4 li{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    float: left;
-    background-color: #c40712
-   
+/** Adds a makeshift horizontal line between the nav and the main page */
+div#navTop{
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-color: #c40711;
+    margin-bottom: 10px;
 }
-ul{
-    padding-inline-start: 170px
-}
-div#nav nav ul li::after{
-    display: table;
-    content: "";
+div#navTop::after{
     clear: both;
+    content: "";
+    display: table;
 }
-
+/** Link Styles */
+div#navTop a:hover, div#navTop a:active{
+    color: coral;
+}
+/** Grid layout Styles */
+div.row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
 div[class^="col-"]{
     float: left;
     box-sizing: border-box;
-    border: #c40712
-    
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
-div.col-1-1{
-    width: 100%;
-}
-div.col-1-4{
-    width: 25%; 
-    background-color: #c40712
-}
-nav ul li{
-    align-content: center
-}
-h3{
-    padding-top: 0
-}
+/** Grid Definitions */
+div.col-1-1{width: 100%;}
+div.col-1-4{width: 25%;}
+/** Footer and Footer Link Styles */
 footer a{
-    padding-bottom: 20px;
     text-decoration:none;
-    color: firebrick
+    color: firebrick;
 }
+/** Sets some room below the footer to make the page look less squished */
+/** Adds some room between the footer division line and the footer */
+/** Also adds a makeshift horizontal line between the footer and the main page */
 footer{
-    padding-bottom: 20px;
-    
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-color: #c40711;
+    margin-top: 10px;
 }
